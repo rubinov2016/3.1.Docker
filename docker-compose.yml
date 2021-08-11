@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  database:
+    image: postgres # use latest official postgres version
+    environment:
+      - POSTGRES_USER=app
+      - POSTGRES_PASSWORD=magical_password
+      - POSTGRES_DB=app
+    volumes:
+      - ./data:/var/lib/mysql
+    ports:
+      - "5432:5432"
