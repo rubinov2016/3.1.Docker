@@ -1,18 +1,8 @@
-HELP.md
-.gradle
-.idea/
-build/
-data/
-gradle/
-gradle/wrapper/
-node
-src/
-out/
+
 
 
 ##All files
 *.*
-*
 
 ### Exclusions ###
 !artifacts/db-api.jar
