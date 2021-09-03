@@ -3,8 +3,8 @@ HELP.md
 .idea/
 build/
 data/
-gradle/
-node/
+gradle
+node
 src/
 out/
 
