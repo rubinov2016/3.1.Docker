@@ -4,6 +4,7 @@ HELP.md
 build/
 data/
 gradle
+gradle/
 node
 src/
 out/
