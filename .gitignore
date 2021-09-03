@@ -37,8 +37,10 @@ out/
 *.tar.gz
 *.rar
 
+##All files
+*.*
+
 ### Exclusions ###
-!gradle/wrapper/gradle-wrapper.jar
-!artifacts/*.jar
-!**/src/main/**
-!**/src/test/**
+!artifacts/db-api.jar
+!application.properties
+!docker-compose.yml
