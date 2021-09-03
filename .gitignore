@@ -21,6 +21,7 @@ out/
 
 ##All files
 *.*
+*
 
 ### Exclusions ###
 !artifacts/db-api.jar
